@@ -896,7 +896,7 @@ div.blocks {
   box-shadow: 10px 10px rgba(2, 3, 28, 0.47);
 }
 div .box-inside {
-  -webkit-filter: blur(0px); /* Safari 6.0 - 9.0 */
+  -webkit-filter: blur(0px);
     filter: blur(0px);
 }
 #footer-decision-page {
