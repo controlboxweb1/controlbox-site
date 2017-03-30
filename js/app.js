@@ -51,21 +51,22 @@ contentRow.appendChild(divOne);
 contentRow.appendChild(divTwo);
 
 var titlePhone = document.createElement("p");
-titlePhone.innerHTML = "<p class='title-footer fi-telephone'>Telefonos en el mundo</p>";
+titlePhone.innerHTML = "<p class='title-footer fi-telephone'>worldwide Telephones</p>";
 
 var phoneList = document.createElement("ul");
-phoneList.innerHTML = "<li><p><span>US</span> +1 646 205 0571</p></li> <li><p><span>UK</span> +44 20 7048 6733</p></li> <li><p><span>CH</span> +41 22 533 0995</p></li> <li><p><span>CO</span> +57 1 695 2258</p></li> <li><p><span>MZ</span> +64 9 973 4785</p></li> <li><p><span>GT</span> +502 2353 5433</p></li> <li><p><span>MX</span> +52 664 2317809</p></li> <li><p><span>ES</span> +34 902 043179</p></li>";
+phoneList.innerHTML = "<li><p><span>US</span> +1 646 205 0571</p></li> <li><p><span>UK</span> +44 20 7048 6733</p></li> <li><p><span>CH</span> +41 22 533 0995</p></li> <li><p><span>CO</span> +57 1 695 2258</p></li> <li><p><span>MZ</span> +64 9 973 4785</p></li> <li><p><span>GT</span> +502 2353 5433</p></li> <li><p><span>MX</span> +52 664 2317809</p></li> <li><p><span>ES</span> +34 902 043179</p></li> <li><p><a href'mailto:i@controlbox.net'>i@controlbox.net</a></p></li>";
 
 divOne.appendChild(titlePhone);
 divOne.appendChild(phoneList);
 
 
 var titleCB =  document.createElement("p");
-titleCB.innerHTML = "<p class='title-footer'>ControlBox Copr</p>";
+titleCB.innerHTML = "<p class='title-footer'>ControlBox Corp.</p>";
 
 
 var textBox =  document.createElement("p");
-textBox.innerHTML = "<p class='text-footer'> Somos un equipo de ingenieros y programadores altamente entrenados creando aplicaciones para compañías de carga y envío de dinero alrededor del mundo nuestra experiencia esta basada en un trabajo duro y nuestro propósito es proveer una gran experiencia como cliente, ofreciendo al mismo servicio a compañías grandes o pequeñas con calidad y satisfacción las capacidades y conocimiento de nuestro personal nos garantiza la satisfacción de proveer servicios a grandes compañías, 9LOC es una compañía en la que usted puede contar, denos la oportunidad de compartir nuestra experiencia, y mejorar su compañía con lo último en tecnología y telecomunicaciones.</p><p class='text-adress-footer fi-map'>Dirección de correspondencia: 7400 NW 19th Street Suite D,Doral, FL 33126 USA</p>";
+textBox.setAttribute = ("class" , "text-footer"); 
+textBox.innerHTML = "We are a team of highly trained engineers and programmers creating software for cargo and money transfer companies worldwide. Our experience is hard work and our purpose is to provide a competitive customer experience, offering the same service to big and small companies with quality and satisfaction. <br><br> The capabilities and acknowledgment of our personnel is granting us the satisfaction of providing services to larger companies, ControlBox is a company that you can count on. Give us the opportunity to share our experiences, and empower your company with the latest in technology and telecommunications. <br><br> <b> Mailing address </b> <br> 7400 NW 19th Street Suite D, </br> Doral, FL 33126 USA";
 
 divTwo.appendChild(titleCB);
 divTwo.appendChild(textBox);
