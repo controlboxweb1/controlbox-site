@@ -858,6 +858,28 @@ div.blocks {
 #middle-information p.slogan {
   font-family: 'open_sanslight' , sans-serif;
   font-size: 1.3em !important;
+  position: relative;
+  margin-top: 20%;
+}
+#middle-information p.slogan::before {
+  content: "";
+  background-color: #fff;
+  border-radius: 100px;
+  height: 2px;
+  top: -32%;
+  left: 45%;
+  position: absolute;
+  width: 30px;
+}
+#middle-information p.slogan::after {
+  content: "";
+  background-color: #fff;
+  border-radius: 100px;
+  height: 2px;
+  bottom: -30%;
+  left: 45%;
+  position: absolute;
+  width: 30px;
 }
 #controlbox , #controlmoney {
     transition: .98s;
@@ -897,7 +919,7 @@ div.blocks {
 }
 div .box-inside {
   -webkit-filter: blur(0px);
-    filter: blur(0px);
+/* HEY I'M HERE */    filter: blur(0px);
 }
 #footer-decision-page {
   background-color: rgb(5, 14, 52);
