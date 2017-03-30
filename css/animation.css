@@ -1,0 +1,36 @@
+
+.slide-left {
+	animation-name: slide-left;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+}
+
+
+.slide-left-content {
+	animation-name: slide-left-content;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes slide-left {
+    0% {
+    	opacity: 0;
+    	left: 20%;  }
+
+    100% {
+    	opacity: 1;
+    	left: 0;
+    }
+}
+
+
+@keyframes slide-left-content {
+    0% {
+    	opacity: 0;
+    	left: 10%;    }
+
+    100% {
+    	opacity: 1;
+    	left: 6.6%;
+    }
+}

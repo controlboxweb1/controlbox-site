@@ -1,0 +1,113 @@
+@media screen and (max-width: 39.9375em)  {
+	#new-1 {
+		background-image: none !important;
+		background: -webkit-linear-gradient(#06adee 0%, #00f6ff 100%);
+	    background: -o-linear-gradient(#06adee 0%, #00f6ff 100%);
+	    background: linear-gradient(#06adee 0%, #00f6ff 100%);
+	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06adee', endColorstr='#00f6ff',GradientType=0 );
+
+	}
+	#new-2 {
+		background-image: none !important;
+		background: #318ef9 !important;
+		background: -moz-linear-gradient(-45deg,  #318ef9 0%, #1840b0 100%) !important;
+		background: -webkit-linear-gradient(-45deg,  #318ef9 0%,#1840b0 100%) !important;
+		background: linear-gradient(135deg,  #318ef9 0%,#1840b0 100%) !important;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#318ef9', endColorstr='#1840b0',GradientType=1 ) !important;
+
+	}
+	#new-3 {
+		background-image: none !important;
+		background: #318ef9 !important;
+		background: #00ff3f !important;
+		background: -moz-linear-gradient(-45deg, #00ff3f 1%, #06cb37 100%) !important;
+		background: -webkit-linear-gradient(-45deg, #00ff3f 1%,#06cb37 100%) !important;
+		background: linear-gradient(135deg, #00ff3f 1%,#06cb37 100%) !important;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff3f', endColorstr='#06cb37',GradientType=1 ) !important;
+			}
+
+	.display-right {
+		display: none;
+		overflow: hidden;
+		opacity: 0;
+	}
+	.display-left {
+		display: none;
+		overflow: hidden;
+		opacity: 0;
+	}
+
+	#content-slider {
+		padding: 2%;
+	}
+
+	#slider .content-padding-null  {
+		padding: 2% !important;
+	}
+
+	/* Services boxes */
+
+	#services ul {
+		margin-left: 0 !important;
+	}
+	#services ul li {
+		margin-bottom: 1.8em !important;
+	}
+
+	#services ul li.lats-box {
+		float: left !important;
+
+	}
+	/* controlboxone */
+
+	#controlboxone {
+		background-image: none !important;
+	}
+
+	/* Profesionals */
+
+	#profesionales {
+		background-image: none !important;
+	}
+	.hide-element {
+		overflow: hidden;
+		display: none;
+		transition: 0.3s;
+	}
+	.show-element {
+		overflow: visible;
+		display: block;
+		transition: 0.3s;
+	}
+	/* nav */
+	nav {
+		position: relative;
+	}
+	#nav-1 {
+		transition: 0.3s;
+	}
+	#button-mobile {
+		display: inline-block;
+		position: absolute;
+    right: 5%;
+    top: 10%;
+	}
+	#button-mobile a {
+		color: #002763;
+		text-decoration: none;
+	}
+	#button-mobile a::before{
+		margin-right: 0.3em;
+	}
+
+	/* Sub main */
+
+	#sub-menu {
+		display: none;
+	}
+
+
+	/* footer */
+
+
+}
