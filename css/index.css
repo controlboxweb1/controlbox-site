@@ -614,12 +614,15 @@ section#services ul li div.content-box-list {
 	transition: 0.8s;
 }
 div.circle {
-	font-family: 'open_sansitalic', sans-serif;
-	font-size: 1.8em;
-	margin: 0 auto;
-	margin-bottom: 0.8em;
-	padding-top: 0.7em;
-	width: 100%;
+  font-family: 'open_sansitalic', sans-serif;
+  font-size: 1.8em;
+  margin: 0 auto;
+  margin-bottom: 0.8em;
+  padding-top: 1.7em;
+  width: 40%;
+  border-radius: 100px;
+  height: 5em;
+  color: #fff;
 }
 section#services ul li div.content-box-list h4 {
 	color: #00ABB2;
