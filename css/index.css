@@ -607,7 +607,6 @@ section#services ul li {
 
 }
 section#services ul li div.content-box-list {
-	background-color: #fff;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 	height: auto;
 	padding: 1em;
@@ -615,18 +614,13 @@ section#services ul li div.content-box-list {
 	transition: 0.8s;
 }
 div.circle {
-	border-radius: 100%;
-	color: #fff;
-	height: 3em;
 	font-family: 'open_sansitalic', sans-serif;
 	font-size: 1.8em;
 	margin: 0 auto;
 	margin-bottom: 0.8em;
 	padding-top: 0.7em;
-	width: 3em;
+	width: 100%;
 }
-
-
 section#services ul li div.content-box-list h4 {
 	color: #00ABB2;
 	text-align: center;
@@ -640,8 +634,62 @@ section#services ul li div.content-box-list p {
 	line-height: 1.6em;
 }
 
+.green-content {
+  position: absolute;
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  opacity: 0;
+  transition: .95s;
+  clip-path: polygon(0% -520%, 0% 100%, 100% 100%);
+}
+.green-content-cm {
+  position: absolute;
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: .95s;
+  clip-path: polygon(100% 0%, 102% 520%, 0% 0%);
+}
+.green-content-cm:hover {
+  background:rgba(10, 250, 77, 0.60);
+  transition: .95s;
+  left: 0;
+  opacity: 1;
+}
+.green-content-cm p {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0 auto;
+  border: 1.5px solid #fff;
+  width: 13em;
+  padding: 4%;
+  position: absolute;
+  left: 33%;
+  top: 55%;
+}
+.green-content p{
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0 auto;
+  border: 1.5px solid #fff;
+  width: 11em;
+  padding: 4%;
+  position: absolute;
+  left: 24%;
+  top: 55%;
+}
 
 
+.green-content:hover {
+  background:rgba(10, 250, 77, 0.60);
+  transition: .95s;
+  opacity: 1;
+}
 
 
 .firts-op {
@@ -826,12 +874,7 @@ div.blocks {
   width: 33%;
   color: #fff;
 }
-.blocks .circle {
-  background: #fff;
-  width: 5em;
-  height: 5em;
-  padding-top: 10%;
-}
+
 #middle-information {
   text-align: center;
 }
