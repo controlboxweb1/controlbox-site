@@ -1006,6 +1006,11 @@ div .box-inside {
   text-decoration: none;
   color: #fff;
   padding: 2em 1.5em;
+  transition: .98s;
+}
+#footer-decision-page ul li a:hover {
+  color: rgb(10, 250, 77);
+  transition: .98s;
 }
 #footer-decision-page p {
   color: rgb(32, 44, 78);
