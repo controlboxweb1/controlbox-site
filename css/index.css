@@ -624,6 +624,16 @@ div.circle {
   height: 5em;
   color: #fff;
 }
+div.circle-d {
+  font-family: 'open_sansitalic', sans-serif;
+  font-size: 1.8em;
+  margin: 0 auto;
+  margin-bottom: 0.8em;
+  padding-top: 1.7em;
+  width: 40%;
+  border-radius: 100px;
+  color: #fff;
+}
 section#services ul li div.content-box-list h4 {
 	color: #00ABB2;
 	text-align: center;
@@ -940,7 +950,10 @@ div.blocks {
   left: -1.6%;
   padding:16% 5% 4% 0;
   clip-path: polygon(0% -520%, 0% 100%, 100% 100%);
-  box-shadow: 10px 10px rgba(2, 3, 28, 0.47);
+  -webkit-clip-path: polygon(0% -520%, 0% 100%, 100% 100%);
+  -moz-clip-path: polygon(0% -520%, 0% 100%, 100% 100%);
+  -ms-clip-path: polygon(0% -520%, 0% 100%, 100% 100%);
+  -o-clip-path: polygon(0% -520%, 0% 100%, 100% 100%);
   background-position: 30% 0;
 }
 #controlbox:hover {
@@ -961,6 +974,10 @@ div.blocks {
   right: -1.6%;
   padding:16% 0 4% 1%;
   clip-path: polygon(100% 0%, 102% 520%, 0% 0%);
+  -webkit-clip-path: polygon(100% 0%, 102% 520%, 0% 0%);
+  -moz-clip-path: polygon(100% 0%, 102% 520%, 0% 0%);
+  -ms-clip-path: polygon(100% 0%, 102% 520%, 0% 0%);
+  -o-clip-path: polygon(100% 0%, 102% 520%, 0% 0%);
   box-shadow: 10px 10px rgba(2, 3, 28, 0.47);
 }
 div .box-inside {
